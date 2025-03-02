@@ -8,6 +8,10 @@ on:
       - '**'
 
 jobs:
+  build-and-deploy:
+    uses: https://github.com/swashbuck1r/workflows/.cloudbees/workflows/build-and-deploy.yaml@reusable
+    with:
+      project-type: java
   build:
     steps:
       - name: Say hello
