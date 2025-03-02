@@ -9,7 +9,7 @@ on:
 
 jobs:
   build-and-deploy:
-    uses: https://github.com/swashbuck1r/workflows/.cloudbees/workflows/build-and-deploy.yaml@reusable
+    uses: https://github.com/swashbuck1r/workflows/.cloudbees/workflows/build-and-deploy.yaml@main
     with:
       project-type: java
   build:
